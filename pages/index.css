@@ -1,5 +1,6 @@
 .page {
     display: flex;
+    margin: auto;
     justify-content: center;
     flex-direction: column;
     max-width: 1600px;
@@ -148,7 +149,7 @@
     align-items: baseline;
     justify-content: center;
     gap: 40px;
-    margin-top: 80px;
+    
 }
 
 .recipes__videos_video-item{
@@ -156,10 +157,11 @@
     list-style-type: none;
     flex-direction: column;
     padding: 0;
+    margin: 80px 0 0 0;
     
 }
 
-.recipes__videos_video-item-iframe{
+.recipes__iframe{
     display: flex;
     width: 480px;
     height: 273px;
@@ -168,10 +170,16 @@
 
 .recipes__videos_video-caption{
     display: flex;
+    margin:24px 0 0 0;
     justify-content: space-between;
     font-weight: 500;
     font-size: 20px;
-    line-height: 30px
+    line-height: 30px;
+    width: 480px;
+}
+
+.recipes__videos_video-caption-mod{
+    margin:0;
 }
 /*
 .reservation{
