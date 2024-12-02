@@ -100,12 +100,24 @@
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
-    margin-top: auto;   
+    margin-top: auto;
+       
+    
+}
+
+.header__footer-mod{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+}
+
+.header__paragraph{
     font-weight: 500;
     color: #838383;
     z-index: 1;
+    margin: 0;
 }
- 
 
 .recipes{
     display: flex;
