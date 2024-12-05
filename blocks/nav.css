@@ -1,0 +1,32 @@
+.nav{
+    display: flex;
+    justify-content: space-between;
+  
+}
+
+.nav__logo {
+    position: relative;
+    height: 39px;
+    width: 109px;
+    left: -50px;
+}
+
+.nav__links {
+    display: flex;
+    column-gap: 20px;
+    margin: 8px 0 0;
+    list-style-type: none;
+    padding: 0;
+}
+
+.nav__link {
+    color: #000000;
+    text-decoration: none;
+    font-weight: 500;
+
+}
+/*Recordar comentar para el revisor automatico*/
+.nav__link:hover{
+    color: #466eb2;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
