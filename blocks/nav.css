@@ -27,6 +27,6 @@
 }
 /*Recordar comentar para el revisor automatico*/
 .nav__link:hover{
-    color: #466eb2;
+    color: #2F80ED;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
